@@ -24,7 +24,7 @@ The actions of the agent are choosen randomly.
 ![untrained](gifs/random_navigation.gif)
 
 ### Trained Agent
-Performance of the smart agent. After training, the agents learns how to identify and collect yellow bananas.
+Performance of the smart agent. After training, the agents learns how to identify and collect yellow bananas. The file `checkpoint_navigation.pth` contains the weights of the trained agent which are loaded for the test step.
 ![trained](gifs/smart_navigation.gif)
 
 ## Training Results
@@ -46,5 +46,5 @@ Environment solved in 452 episodes!	Average Score: 13.05
 
 The following techniques and algorithms may improve the performance of the current implementation.
 - [RAINBOW](https://arxiv.org/pdf/1710.02298.pdf).
-- [DDQN] (https://arxiv.org/abs/1509.06461).
+- [DDQN](https://arxiv.org/abs/1509.06461).
 - Hyperparameter optimization.
