@@ -2,7 +2,7 @@
 
 ## Architecture and Parameters
 
-This implementation is based on the [Nature paper](https://www.nature.com/articles/nature14236). The model consists of three fully connected layers and ReLU functions. The input layer has 37 units which represent the size of the state space. The output layer has 4 units corresponding to the Q value of each action. A drop out of `0.25` showed significant performance inprovement.
+This implementation is based on this [Nature paper](https://www.nature.com/articles/nature14236). The model consists of three fully connected layers and ReLU functions. The input layer has 37 units which represent the size of the state space. The output layer has 4 units corresponding to the Q value of each action. A drop out of `0.25` showed significant performance inprovement.
 
 The following parameters are used: 
 - `eps_start (float) = 1.0`: Starting value of epsilon, for epsilon-greedy action selection.
